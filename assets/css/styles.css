@@ -329,7 +329,7 @@ html {
     #email:hover {
         border-color: #28A745;
         background-color: white;
-        color: #black;
+        color: black;
         text-shadow: 1px 1px 1px rgb(26, 114, 47);
         padding-right: -15px;
     }
