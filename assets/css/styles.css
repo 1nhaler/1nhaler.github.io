@@ -222,7 +222,7 @@ html {
     list-style-type: none;
 }
 
-.contact li button {
+.contact li a {
     text-align: center;
     padding: 10px 0;
     width: 300px;
@@ -306,11 +306,32 @@ html {
         font-size: 35px;
     }
 
-    .contact li button {
+    .contact li a {
         text-align: center;
         padding: 10px 150px;
         width: 450px;
         margin: 5px 0;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    .contact li a:hover {
+        cursor: pointer;
+    }
+
+    #email:hover span {
+        display: none;
+    }
+
+    #email:hover:before {
+        content: "fauzilatif97@gmail.com";
+    }
+
+    #email:hover {
+        border-color: #28A745;
+        background-color: white;
+        color: #black;
+        text-shadow: 1px 1px 1px rgb(26, 114, 47);
+        padding-right: -15px;
     }
 
     .footer {
