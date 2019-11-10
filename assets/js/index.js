@@ -1,3 +1,5 @@
+let copyright = document.querySelector("#year");
+let date = new Date().getFullYear();
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -19,3 +21,5 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+copyright.innerHTML = date;
